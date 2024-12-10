@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FluentJsonApi.AspNetCore", "FluentJsonApi.AspNetCore\FluentJsonApi.AspNetCore.csproj", "{2771F0D7-30C3-46F0-BB58-7AD18A7DACB4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FluentJsonApi.AspNetCore.Tests", "FluentJsonApi.AspNetCore.Tests\FluentJsonApi.AspNetCore.Tests.csproj", "{CC218787-8DAB-4640-8FEE-D6AB28B9DEBA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2771F0D7-30C3-46F0-BB58-7AD18A7DACB4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2771F0D7-30C3-46F0-BB58-7AD18A7DACB4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2771F0D7-30C3-46F0-BB58-7AD18A7DACB4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2771F0D7-30C3-46F0-BB58-7AD18A7DACB4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CC218787-8DAB-4640-8FEE-D6AB28B9DEBA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CC218787-8DAB-4640-8FEE-D6AB28B9DEBA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CC218787-8DAB-4640-8FEE-D6AB28B9DEBA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CC218787-8DAB-4640-8FEE-D6AB28B9DEBA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
