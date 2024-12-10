@@ -65,12 +65,10 @@ public class JsonApiDocumentBuilder(JsonApiBuilder builder)
 
 public class JsonApiDocumentCollection
 {
-    [JsonPropertyName("data")]
     public List<JsonApiResource> Data { get; } = [];
 }
 
 public class JsonApiDocument
 {
-    [JsonPropertyName("data")]
-    public JsonApiResource Data { get; set; }
+    public required JsonApiResource Data { get; set; }
 }

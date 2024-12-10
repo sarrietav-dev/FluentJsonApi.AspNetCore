@@ -4,6 +4,6 @@ namespace FluentJsonApi.AspNetCore;
 
 public class JsonApiLinks
 {
-    public string Self { get; set; }
-    public string Related { get; set; }
+    public required string Self { get; set; }
+    public string? Related { get; set; } = null;
 }
