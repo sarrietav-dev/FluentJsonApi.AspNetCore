@@ -52,11 +52,7 @@ var article = new Article
     Id = 1,
     Title = "JSON:API",
     Content = "JSON:API is a specification for building APIs in JSON",
-
-
- Author
-
- = "John Doe"
+    Author = "John Doe"
 };
 var document = documentBuilder.BuildDocument(article);
 ```
