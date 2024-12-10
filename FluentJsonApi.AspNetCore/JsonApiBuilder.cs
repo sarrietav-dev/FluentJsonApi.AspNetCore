@@ -17,11 +17,11 @@ public class JsonApiBuilder
         return resourceConfiguration;
     }
 
-    public ResourceConfiguration<TEntity>? GetConfiguration<TEntity>(Type? type) where TEntity : class
+    public ResourceConfiguration<TEntity> GetConfiguration<TEntity>(Type? type) where TEntity : class
     {
         if (type == null)
         {
-            return null;
+            throw new ArgumentNullException(nameof(type));
         }
 
         if (!_resourceConfigurations.ContainsKey(type.Name))
@@ -29,6 +29,6 @@ public class JsonApiBuilder
             throw new InvalidOperationException($"Entity {type.Name} is not configured.");
         }
 
-        return (ResourceConfiguration<TEntity>?)_resourceConfigurations[type.Name];
+        return (ResourceConfiguration<TEntity>)_resourceConfigurations[type.Name];
     }
 }
